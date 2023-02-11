@@ -1,0 +1,14 @@
+export const addTaskMobileIcon = "./assets/icon-add-task-mobile.svg";
+export const boardIcon = "./assets/icon-board.svg";
+export const checkIcon = "./assets/icon-check.svg";
+export const chevronDown = "./assets/icon-chevron-down.svg";
+export const chevronUp = "./assets/icon-chevron-up.svg";
+export const crossIcon = "./assets/icon-cross.svg";
+export const darkTheme = "./assets/icon-dark-theme.svg";
+export const hideSidebar = "./assets/icon-hide-sidebar.svg";
+export const lightTheme = "./assets/icon-light-theme.svg";
+export const showSidebar = "./assets/icon-show-sidebar.svg";
+export const vertEllipsis = "./assets/icon-vertical-ellipsis.svg";
+export const logoDark = "./assets/logo-dark.svg";
+export const logoLight = "./assets/logo-light.svg";
+export const logoMobile = "./assets/logo-mobile.svg";

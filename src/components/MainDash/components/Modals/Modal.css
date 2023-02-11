@@ -1,0 +1,96 @@
+.modal-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-100vw);
+  transition: 0.4s ease;
+  border: 5px solid red;
+  top: 0;
+}
+
+.modal-wrapper::after {
+  content: "";
+  background: black;
+  height: 100%;
+  position: absolute;
+  opacity: 70%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  position: relative;
+  z-index: 10;
+}
+
+.show-modal {
+  transform: translateX(0vw);
+}
+
+.button-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-btn {
+  width: 41.6rem;
+  height: 4rem;
+}
+
+/*Board Modal */
+
+.board-modal {
+  /* height: 42rem; */
+  width: 48rem;
+  border: 2px dotted red;
+  padding: 3.2rem;
+  background: var(--primarybg);
+  border-radius: 6px;
+  /* box-shadow: 2px 4px 25px var(--secondarybg); */
+}
+
+.modal-header {
+  font-size: 2.3rem;
+}
+
+.label-h5 {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+  color: var(--secondarycolor);
+}
+
+.form-div {
+  cursor: pointer;
+}
+
+.name-form {
+  margin: 2.4rem 0;
+}
+
+.form-control {
+  padding: 0 1.6rem;
+  font-size: 1.3rem;
+  height: 4rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--steelgray);
+  background: var(--secondarybg);
+}
+
+/*ColumnInput */
+
+.input-row {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  margin-left: 1.5rem;
+}

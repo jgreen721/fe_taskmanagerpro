@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --purple: #635fc7;
+  --lightpurple: #a8a4ff;
+  --lightblack: #2b2c37;
+  --lighterblack: #3e3f4e;
+  --whitegray: #f4f7fd;
+  --white: #ffffff;
+  --red: #ea5555;
+  --gray: #828fa3;
+  --black: #000112;
+  --steelgray: #828fa3;
+  --hightlightblack: #20212c;
+  --steelwhite: #e4ebfa;
+  --highlightred: #ff9898;
+  --blue: #49c4e5;
+  --green: #67e2ae;
+  --mainFont: "Plus Jakarta Sans", sans-serif;
+}
+
+.app[data-theme="dark"] {
+  --primarybg: var(--black);
+  --secondarybg: var(--hightlightblack);
+
+  --primarycolor: var(--white);
+  --secondarycolor: var(--steelgray);
+}
+
+.app[data-theme="light"] {
+  --primarybg: var(--white);
+  --secondarybg: var(--whitegray);
+  --primarycolor: var(--black);
+  --secondarycolor: var(--lighterblack);
+}
+
+.app {
+  max-width: 144rem;
+  margin: 0 auto;
+  position: relative;
+  /* border: 4px dotted blue; */
+  background: var(--primarybg);
+  color: var(--primarycolor);
+  font-family: var(--mainFont);
+  min-height: 100vh;
+}
+
+.app-content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 100%;
+  /* border: 3px dotted green; */
+}
+
+.nav-wrapper {
+  width: 100%;
+  height: 9.7rem;
+}
+
+.btn {
+  width: 16.4rem;
+  height: 4.8rem;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+  font-size: 1.3rem;
+}
+
+.primary {
+  background: var(--purple);
+  color: var(--white);
+}
+
+.primary:hover {
+  background: var(--lightpurple);
+}
+
+.secondary {
+  background: var(--secondarybg);
+  color: var(--purple);
+}
+
+.secondary:hover {
+  background: var(--steelwhite);
+}
+
+.destructive {
+  background: var(--red);
+  color: var(--white);
+}
+
+.destructive:hover {
+  background: var(--highlightred);
+}
+
+.form-btn {
+  width: 41.6rem;
+  height: 4rem;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.white {
+  color: var(--white);
+}
+
+.light-purple {
+  background: var(--lightpurple);
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.green {
+  background: var(--green);
+}
+
+.mt-2 {
+  margin-top: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 425px) {
+}
